@@ -5,7 +5,7 @@ int count = 0;
 for (int i = 0; i < array.Length; i++)
 {
     array[i] = new Random().Next(99,1000);
-    Console.Write(array[i] + " "); 
+    Console.Write(array[i] + ", "); 
 
 }
 Console.WriteLine();
