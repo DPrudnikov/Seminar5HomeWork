@@ -3,7 +3,7 @@ int [] array = new int [7];
 int sum = 0;
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = new Random().Next(10,100);
+    array[i] = new Random().Next(-10,10);
     Console.Write(array[i] + ", ");
 }
 Console.WriteLine();
